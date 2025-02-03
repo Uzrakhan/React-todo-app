@@ -1,7 +1,43 @@
-#root {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+h1 {
+    font-size: 36px;
+  }
+  
+  input[type='text'] {
+    max-width: 80%;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .list-group-item {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .form-check-input:checked + span {
+    text-decoration: none;
+  }
+  
+  .todo-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+  }
+  
+  .input-group {
+    width: 100%;             /* Adjust width as needed */
+    max-width: 800px;       /* Limit maximum width */
+    margin-left: 3.5vw;
+  }
+  
 
